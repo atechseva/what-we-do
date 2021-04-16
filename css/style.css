@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#choose-us{
+ color:#ffffff;
+ font-family: 'Poppins', sans-serif;
+}
+#choose-us h4{
+	text-align:left !important;
+}
+#choose-us .how-bg-img{
+	background: url("../work.png") no-repeat fixed;
+	background-size: contain;
+	filter:grayscale(100%);
+}
+#choose-us:hover .how-bg-img{
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	filter:grayscale(1%);
+}
+#choose-us .why-cont{
+	padding:60px 30px;
+	background:#2bb0ee;
+}
+
+#choose-us .why-cont ul li{
+	padding-left: 50px;
+    position: relative;
+	margin-bottom:26px;
+}
+#choose-us .why-cont ul li:before{
+	font-family: FontAwesome;
+	content: "\f058 ";
+    position: absolute;
+    font-size: 39px;
+    color: #ffffff;
+    left: 0;
+}
+
